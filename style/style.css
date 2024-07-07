@@ -20,6 +20,14 @@
     font-weight: bold;
     padding: 16px 30px;
     border-radius: 5px;
+    border: none;
+}
+
+/* header */
+.header{
+    background-image: url("../developer.png"), url("../header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
   
@@ -53,4 +61,40 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* bannner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 210px ;
+    
+}
+
+.banner_content{
+    max-width: 550px;
+}
+
+
+.banner-into{
+
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.banner-titel{
+
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-para{
+
+
+}
+
+.banner-img{
+
 }
